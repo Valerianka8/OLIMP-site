@@ -1,0 +1,94 @@
+@media only screen and (max-width: 768px) {
+    .butt {
+        min-width: 100px;
+        font-size: 10px;
+    }
+    .butt i {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    header form {
+        max-width: 100px;
+    }
+    header form input {
+        font-size: 10px;
+    }
+    header .logo  img {
+        max-width: 280px;
+    }
+    .social {
+        line-height: 25px;
+        margin-top: 15px;
+        width: 25px;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .menu {
+        font-size: 15px;
+    }
+    .menu li {
+        margin-right: 5px;
+    }
+    .banner h1 {
+        font-size: 20px;
+        padding-bottom: 5px;
+        bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        max-width: 320px;
+        margin: auto;
+    }
+    .menu {
+        float: none;
+        display: block;
+    }
+    .butt {
+        float: none;
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+    }
+    header {
+        position: static;
+    }
+    .sec_h {
+        max-width: 320px;
+    }
+    header form {
+        max-width: 100%;
+    }
+    header form i {
+        margin: auto;
+    }
+    .menu li {
+        margin: 0;
+        display: block;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .menu li a {
+        padding-bottom: 2px;
+    }
+    .menu li a:hover {
+        border-bottom: 1px solid #ff0000;
+    }
+    .social {
+        margin: 0;
+        margin-left: 14%;
+        margin-top: 10px;
+        float: none;
+    }
+    body {
+        background-color: #ff0000;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+
+}
+
+
